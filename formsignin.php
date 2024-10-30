@@ -42,7 +42,7 @@
             <div class="foot">
                 <button type="submit">S'inscrire</button>
             </div>
-            <p>Déjà inscrit ? <a href="page_connexion.html"> Connectez-vous ici</a>
+            <p>Déjà inscrit ? <a href="login.php"> Connectez-vous ici</a>
             </p>
         </form>
 

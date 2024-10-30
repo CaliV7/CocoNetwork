@@ -17,17 +17,20 @@ body{
 
 
 h1{
+    color: rgb(217,197,136);
     text-align: center;
     font-family: 'Palmtitle';
     font-size: 32px;
-    font-weight: 100;   
+    font-weight: 100;
+    text-shadow: 2px 2px 4px rgb(49, 18, 0);   
 }
 
 h2{
     text-align: center;
     font-family: "Leckerli One", cursive;
     font-weight: 200;
-    font-size: 24px;
+    font-size: 20px;
+    text-shadow: rgb(255, 232, 163) 2px 0 10px;
 }
 
 form {
@@ -65,6 +68,7 @@ button{
     border-radius: 4px;
     font-family: "Leckerli One", cursive;
     font-size: 20px;
+    margin-bottom: 15px;
 }
 button:hover {
     background-color: rgb(238, 216, 152);
@@ -74,13 +78,20 @@ button:hover {
 p{
     display: flex;
     justify-content: center;
-    font-family: "Leckerli One", cursive;
+    margin: 0px;
 }
 
 a {
+    display: flex;
+    justify-content: center;
     color: black; 
 }
 
 a:hover {
     color: #ccc; 
+}
+
+.footer{
+    font-family: "Leckerli One", cursive;
+    font-size: 12px;
 }
