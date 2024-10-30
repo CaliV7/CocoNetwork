@@ -85,6 +85,7 @@
         try {
             $stmt->execute();
             echo "<p>Inscription réussie ! </p>";
+            header("Location: accueil.php"); // accueil.php n'est pas encore créé
         } catch (PDOException $e) {
             echo "<p>Erreur lors de l'inscription, veuillez réessayer." . $e->getMessage() . "</p>";
         }
