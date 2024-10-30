@@ -65,7 +65,7 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $username = $_POST['username'];
         $nom = $_POST['nom'];
-        $firstname = $_POST['prenom'];
+        $prenom = $_POST['prenom'];
         $birthdate = $_POST['birthdate'];
         $email = $_POST['email'];
         $motdepasse = $_POST['motdepasse'];
