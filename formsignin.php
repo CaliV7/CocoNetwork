@@ -84,9 +84,9 @@
         // Exécution de la requête
         try {
             $stmt->execute();
-            echo "<p>Données insérées avec succès.</p>";
+            echo "<p>Inscription réussie ! </p>";
         } catch (PDOException $e) {
-            echo "<p>Erreur lors de l'insertion : " . $e->getMessage() . "</p>";
+            echo "<p>Erreur lors de l'inscription, veuillez réessayer." . $e->getMessage() . "</p>";
         }
     }
     // Fermer la connexion
