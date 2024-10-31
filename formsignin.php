@@ -50,8 +50,13 @@
         
     </div>
     
-    <?php
-    // Connexion à la base de données
+    <?php  /* Commentaire ajouté par Abdelkrim le 31/10/24 : 
+            ton code est tres clair et bien organisé.
+            tu peux aussi creer un fichier de connexion  et 
+            faire un require.
+             hate de m'inscrire */
+
+    // Connexion à la base de données 
     try {
         $dsn = "mysql:host=localhost;dbname=socialnetwork;charset=utf8";
         $user = "root";
